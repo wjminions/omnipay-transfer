@@ -1,0 +1,28 @@
+{
+    "name": "wjminions/omnipay-transfer",
+    "type": "library",
+    "description": "Transfer driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "transfer gateway service",
+        "merchant",
+        "transfer",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/wjminions/omnipay-transfer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wjminions",
+            "homepage": "https://github.com/wjminions/omnipay-transfer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Transfer\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    }
+}
